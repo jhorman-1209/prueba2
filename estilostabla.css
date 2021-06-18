@@ -1,0 +1,104 @@
+body{/*Contenido del html*/
+    background-color:#EDFB43;/*Color de fondo de la pagina*/
+    font-family: Arial;
+}
+
+
+#principal{
+            width: 500px;/*Ancho en pixeles*/
+            background-color: white;/*Color de fondo del titulo*/
+            text-align: center; /*Alineacion del texto*/
+            margin: 20px auto; /*Establece el margen para los cuatro lados. */
+            border: 1px solid black; /*Límite que separa el interior del exterior del elemento.*/
+        }
+        
+        table{
+            text-align: center;
+            border-collapse: collapse;/*Se utiliza para fusionar los bordes.*/
+             }
+    td{
+        border: 1px black solid;
+    }
+
+.div1{
+    text-align: center;
+    position: absolute;/*Especifica cómo un elemento es posicionado en el documento. Las propiedades top, right, bottom, y left determinan la ubicación final de los elementos posicionados    */
+    top: 130px;/*Especifica parte de la posición de un elemento posicionado.*/
+    bottom: 0;/*Permite desplazar un elemento respecto a su posición original tomando como referencia el borde inferior del elemento. */
+    right: 0;/* Epecifica parte de la posición de un elemento (posicionado - es decir, con una posición determinada por código).*/
+    left: 515px;
+    
+ }
+
+ .div1 tbody tr:nth-child(odd){/*odd pinta de manera impar las filas*/
+    background-color: #9ba2a5;
+ }
+ 
+  
+
+.div2{
+    text-align: center;
+    position: absolute;
+    top: 130px;
+    bottom: 0;
+    right: 0;
+    left: 715px;
+    
+    }
+.div2 td:nth-child(odd){/*odd pinta de manera impar columnas*/
+    background-color: #479EDC;
+}
+
+.div3{
+    
+    text-align: center;
+    position: absolute;
+    top: 130px;
+    bottom: 0;
+    right: 0;
+    left: 900px;
+}
+.div3 thead{
+    background-color: #78D738;
+}
+
+.div3 td:last-child{/*Pinta   el último elemento entre un grupo de elementos*/
+    background-color:#A447DC;
+    color: white;
+
+}
+
+.div4{
+    text-align: center;
+    position: absolute;
+    top: 400px;
+    bottom: 0;
+    right: 0;
+    left: 515px;
+}
+.div4 thead{/*Solo pinta el encabezado*/
+    background-color: #e93629 ;
+    color: white;
+}
+.div5{
+    text-align: center;
+    position: absolute;
+    top: 400px;
+    bottom: 0;
+    right: 0;
+    left: 0px;
+}
+
+
+.div6{
+    text-align: center;
+    position: absolute;
+    top: 400px;
+    bottom: 0;
+    right: 0;
+    left: 900px;
+}
+.div6 thead{/*Solo pinta el encabezado*/
+    background-color: #33E915;
+    color: white;
+}
